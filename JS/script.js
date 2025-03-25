@@ -34,7 +34,7 @@ window.onscroll = function () {
         header.classList.remove("fixed-bar")
     }
 
-    if (scrollY > 2000) {
+    if (scrollY >1700) {
         serviceCard[0].style.animation = "fadeInUp 1.5s forwards";
         serviceCard[1].style.animation = "fadeInUp 1.5s 0.15s forwards";
         serviceCard[2].style.animation = "fadeInUp 1.5s 0.3s forwards";
